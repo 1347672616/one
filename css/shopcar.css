@@ -1,0 +1,132 @@
+
+body{
+    background-color: #fafafa;
+}
+.shopcar{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.shopcar .title{
+    width: 100%;
+    padding-top: 1.52rem;
+    font-size: 1.44rem;
+    color: #111111;
+}
+.shopcar .list{
+    width: 100%;
+    border-radius: .68rem;
+    background-color: #ffffff;
+    height: 7.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+.shopcar .list .left{
+    padding-top: .56rem;
+
+    width: 59%;
+    display: flex;
+}
+.shopcar .list .left .back{
+    width: 43%;
+}
+.shopcar .list .left .back img{
+    width: 100%;
+
+}
+.shopcar .list .center{
+    padding-left: 6%;
+}
+
+.shopcar .list .center h3{
+    font-size: 1.28rem;
+}
+.shopcar .list .center .text{
+    font-size: 1rem;
+    padding-top: .3rem;
+}
+.shopcar .list .center .price{
+    font-size: 1.27rem;
+    color: #111111;
+    padding-top: 1.44rem;
+}
+.shopcar .list .center .price del{
+    color: #a1a1b4;
+}
+.shopcar .list .right{
+    width: 25%;
+    padding-top: .56rem;
+
+    font-size: 1.28rem;
+    color: #111111;
+    text-align: right;
+    
+
+}
+/* .shopcar .list .right .back{
+    width: 1.6rem;
+    height: 1.6rem;
+} */
+.shopcar .list .right .back img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.shopcar .list .right .calculate{
+    width: 100%;
+}
+.shopcar .list .right .calculate img{
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+}
+.shopcar .list .right .calculate .text{
+    line-height: 7rem;
+}
+
+.shopcar .list{
+    margin-top: 1rem;
+}
+
+.more{
+    margin-top: 1.84rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+.more .detail{
+    display: flex;
+    justify-content: space-between;
+}
+.more .detail .left{
+    font-size: 1.12rem;
+    color: #a1a1b4;
+}
+.more .detail .right{
+    font-size: 1.28rem;
+}
+.more .detailtwo{
+    margin-top: .5rem;
+}
+.intal{
+    padding-top: 1.32rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.intal .left{
+    font-size: 1.12rem;
+}
+
+.intal .right{
+    font-size: 1.6rem;
+}
+.intal input{
+    width: 100%;
+    height: 3.2rem;
+    font-size: 1.28rem;
+    color: #fff;
+    border: none;
+    margin-top: 3rem;
+    background-color: #7850ff;
+    border-radius: 1.56em;
+}

@@ -1,0 +1,109 @@
+.detail{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+.detail .back{
+    width: 100%;
+    
+}
+.detail .back img{
+    width: 100%;
+}
+.detail .title{
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.detail .title h4{
+    font-size: 1.44rem;
+    color: #111111;
+}
+
+.detail .title .text{
+    font-size: 1.2rem;
+    color: #87879d;
+}
+.options{
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: #87879d;
+}
+.options div{
+    width: 30%;
+    padding-bottom: 1.1rem;
+    border-bottom:2px solid transparent;
+}
+
+.options div:nth-child(2){
+    text-align: center;
+}
+.options div:nth-child(3){
+    text-align: right;
+}
+.options div:hover{
+    color: #111111;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 1.1rem;
+}
+
+/* 介绍 */
+.introduce{
+    line-height: 1.5rem;
+    margin-top: .6rem;
+    font-size: .5rem;
+    color: #87879d;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .8rem;
+}
+
+
+/* 标签 */
+
+.label{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.label div{
+    font-size: 1rem;
+    margin-top: 1.44rem;
+    color: #818181;
+    text-align: center;
+    line-height: 2.2rem;
+    border: 2px solid #ccc;
+    border-radius: 1.2rem;
+    margin-right: 3%;
+    transition: all .3s;
+
+}
+.label div:hover{
+    background-color: #3a61ff;
+    color: #fff;
+}
+.label div:nth-child(1){
+    width: 15%;
+}
+.label div:nth-child(2){
+    width: 25%;
+}
+.label div:nth-child(3){
+    width:20%;
+}
+.label div:nth-child(4){
+    width: 27%;
+    margin-right: 0;
+}
+.label div:nth-child(5){
+    width: 27%;
+}
+.label div:nth-child(6){
+    width:20%;
+}
+.label div:nth-child(7){
+    width: 27%;
+}

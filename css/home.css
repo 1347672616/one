@@ -1,0 +1,138 @@
+/* 头部 */
+header{
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+}
+header .nav{
+    width: 90%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+header .back{
+    width: 10%;
+    height: 3rem;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f76844;
+
+}
+header .text{
+    font-size: 1rem;
+}
+header .font{
+    width: 10%;
+    height: 3rem;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+}
+
+
+/* card */
+.card{
+    position: relative;
+    padding-top: 3.38rem;
+    width: 90%;
+    margin: 0 auto;
+} 
+.card .back{
+    width: 100%;
+    
+}
+
+.card .back img{
+    width: 100%;
+}
+.card .title{
+    width: 100%;
+    position: absolute;
+    top: 13.6rem;
+
+    font-size: 1.12rem ;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.card .title .left{
+    width: 70%;
+}
+.card .title .right{
+    width: 11%;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 新品 */
+.new{
+    width: 100%;
+    border-radius: 1.62rem;
+    background-color: #f7f7f7;
+}
+.new .title{
+    width: 90%;
+    height: 3.32rem;
+    padding-top: 1.64rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.new .title .left{
+    line-height: 3.32rem;
+    font-size: 1.76rem;
+}
+.product{
+    position: relative;
+    width: 95%;
+    height: 23.8rem;
+
+    padding-top: 1.12rem;
+    margin: 0 auto;
+    padding-left: 5%;
+    overflow: hidden;
+    display: flex;
+
+}
+/* .product .list{
+    position: absolute;
+} */
+.product .list{
+    position: absolute;
+    width: 50%;
+}
+.product .list .back{
+    width: 100%;
+
+}
+.product .list .back img{
+    width: 100%;
+}
+.product .list h3{
+    padding-top: 1.1rem;
+
+}
+.product .list h3,
+.product .list .text{
+    font-size: 1.12rem;
+}
+.product .list .text{
+    padding-top: .7rem;
+}
+
+.product .listtwo{
+    margin-left:56% ;
+
+}
+

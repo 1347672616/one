@@ -1,0 +1,129 @@
+/* 个人信息  */
+.personal{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.personal .new{
+    width: 45%;
+}
+.personal .new .name{
+    font-size: 1.7rem;
+    padding-top: 0.3rem;
+}
+.personal .work{
+    font-size: 1.2rem;
+}
+
+.personal .new .work,
+.personal .new .address{
+    font-size: 1.2rem;
+    color: #87879d;
+    padding-top: .5rem;
+}
+.personal .new .address{
+    height: 3rem;
+    background: url(/images/position_05.png) no-repeat;
+    background-position: left .78rem;
+    text-indent: 1.2rem;
+}
+.personal .detail {
+    margin-top: 0.55rem;
+    display: flex;
+
+
+}
+.personal .detail .works{
+    width: 42%;
+    border-right: 4px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.personal .detail .works .text{
+    text-indent: 1rem;
+}
+.personal .detail .fans{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.personal .detail  .number{
+    font-size: 2rem;
+
+}
+.personal .detail  .text{
+    font-size: 1rem;
+    color: #87879d;
+}
+
+/* 相关 */
+.related{
+    width: 90%;
+    font-size: 2rem;
+    color: #111111;
+    margin-left: 5%;
+}
+.related h3{
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+.related .text{
+    font-size: 1.2rem;
+    color: #87879d;
+    margin-top: 1.4rem;
+}
+
+/* 相册 */
+.more{
+    width: 100%;
+}
+.more .title{
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.more .title h3{
+    font-size: 1.7rem;
+    color: #111111;
+
+
+}
+.more .title .all{
+    font-size:1.1rem;
+    color: #87879d;
+    line-height: 2.1rem;
+
+}
+.more .title .all img{
+    vertical-align: middle;
+
+}
+.picture{
+    width:90%;
+    margin: 0 auto;
+    margin-top:1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.picture .text{
+    width: 31%;
+    height: 10.45rem;
+    text-align: center;
+    line-height: 10.45rem;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 9px;
+    background-color: #6e53ff;
+}
+.picture .backthree{
+    margin-top: .8rem;
+}

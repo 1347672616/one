@@ -1,0 +1,102 @@
+.login {
+    width: 100%;
+}
+
+.login h3 {
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-top: 10rem;
+    margin-bottom: 1em;
+
+}
+
+.login .text {
+    font-size: 1.4rem;
+    margin-left: 5%;
+    margin-bottom: 2.5rem;
+}
+
+.login .write input {
+    display: block;
+    width: 90%;
+    height: 3.5rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+
+}
+
+.login .write .password {
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login .write .password input {
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.login .write .password .eye {
+    width: 10%;
+    cursor: pointer;
+}
+
+/* .login .write .password .eye{
+    background: url(/images/eye_03.png) no-repeat;
+    background-position: right center;
+} */
+
+.login .write input[type="submit"] {
+    border-radius: 3rem;
+    height: 3rem;
+
+}
+
+.login .write .btnone {
+    margin-top: 3.5rem;
+}
+
+.login .write .other {
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+
+}
+
+.login .write .btntwo {
+    border: 4px solid #ccc;
+    background: url(/images/face_07.png) no-repeat;
+    background-position: 29% center;
+}
+
+.login .write input[type="submit"]:hover {
+    background-color: #7650ff;
+    box-shadow: ;
+}
+
+.login .write .help a,
+.login .write .help {
+    color: #87879d;
+}
+
+.login .write .forget {
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.login .write .help a:hover {
+    color: #232323;
+}
+
+.login .write .help .registered {
+    display: flex;
+    justify-content: center;
+}
