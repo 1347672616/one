@@ -67,21 +67,28 @@ a {
 }
 
 /* 头部 */
+
+
 header {
     width: 100%;
-}
-
-.header {
-    width: 9rem;
-    height: 9rem;
+    height: 3.84rem;
+    background-color: #fff;
 }
 
 header .nav {
+    width: 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
 }
-
+header .nav .back img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
 header .text {
     font-size: 1.7rem;
     color: #111111;
@@ -163,14 +170,14 @@ footer .back:hover::after {
 
 @font-face {
     font-family: 'iconfont';
-    src: url('/font/iconfont.woff2?t=1646617567779') format('woff2'),
-        url('/font/iconfont.woff?t=1646617567779') format('woff'),
-        url('/font/iconfont.ttf?t=1646617567779') format('truetype');
+    src: url('../font/iconfont.woff2?t=1646617567779') format('woff2'),
+        url('../font/iconfont.woff?t=1646617567779') format('woff'),
+        url('../font/iconfont.ttf?t=1646617567779') format('truetype');
 }
 
 .iconfont {
     font-family: "iconfont" !important;
-    font-size: 47px;
+    font-size: 2rem;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

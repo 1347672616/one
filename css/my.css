@@ -4,6 +4,9 @@
     display: flex;
     justify-content:space-between;
 }
+.personal .back img{
+    width: 13.25rem;
+}
 .personal .new{
     width: 45%;
 }
@@ -25,6 +28,7 @@
     height: 3rem;
     background: url(/images/position_05.png) no-repeat;
     background-position: left .78rem;
+    background-size: 1.32rem 1.08rem;
     text-indent: 1.2rem;
 }
 .personal .detail {
@@ -35,7 +39,7 @@
 }
 .personal .detail .works{
     width: 42%;
-    border-right: 4px solid #ccc;
+    border-right: .3rem solid #ccc;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -103,6 +107,8 @@
 
 }
 .more .title .all img{
+    width: 1.24rem;
+    height: 1.24rem;
     vertical-align: middle;
 
 }
@@ -113,6 +119,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.picture  .backone{
+    width: 14.64rem;
+    height: 10.48rem;
+}
+.picture  .backtwo{
+    width: 11.28rem;
+    height: 10.48rem;
+}
+.picture  .backthree{
+    width: 8.32rem;
+    height: 10.48rem;
+}
+.picture  div:nth-child(6){
+    width: 17.52rem;
 }
 .picture .text{
     width: 31%;

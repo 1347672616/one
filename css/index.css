@@ -93,6 +93,10 @@ header .font{
     line-height: 3.32rem;
     font-size: 1.76rem;
 }
+.new .title .right img{
+    width: 3.24rem;
+    height: 3.36rem;
+}
 .product{
     position: relative;
     width: 95%;

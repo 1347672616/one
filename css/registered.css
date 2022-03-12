@@ -23,8 +23,9 @@
     margin: 0 auto;
     font-size: 1rem;
     cursor: pointer;
+    background-color: #ffffff;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border: 4px solid #ccc;
     outline: none;
 
 }
@@ -59,7 +60,9 @@
     height: 3rem;
 
 }
-
+.login .write .up{
+    margin-top: 3.12rem;
+}
 .login .write .btnone {
     margin-top: 3.5rem;
 }
@@ -71,15 +74,41 @@
 
 }
 
-.login .write .btntwo {
-    border: 4px solid #ccc;
-    background: url(/images/face_07.png) no-repeat;
-    background-position: 29% center;
+.login .write .people{
+    border: none;
+    border-bottom:1px solid #ccc ;
 }
+.login .write .btntwo {
+    width: 90%;
+    height: 3rem;
+    border-radius: 3rem;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border: 4px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .write .btntwo:hover{
+    height: 3.6rem;
+    background-color: #7650ff;
+    color: #ffffff;
+    border: none;
+}
+.login .write .btntwo img{
+    width: 1.52rem;
+    height: 1.52rem;
+    margin-right: .4rem;
+}
+
 
 .login .write input[type="submit"]:hover {
     background-color: #7650ff;
-    box-shadow: ;
+    box-shadow: 0 2px 5px 0 #7650ff;
+    border: none;
+    color: #ffffff;
+
 }
 
 .login .write .help a,
